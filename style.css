@@ -1,0 +1,27 @@
+  @keyframes left{
+    0%{
+      right: 0%;
+    }
+    100%{
+    right: 100%;
+    }
+  }
+  @keyframes right{
+    0%{
+        left: 0%;
+    }
+  
+    100%{
+        left:100%;
+    }
+  }
+  .left img{
+    position: absolute;
+    
+    animation: left 5s linear
+  }
+  .right img{
+    position: absolute;
+   
+    animation: right 5s linear
+  }
